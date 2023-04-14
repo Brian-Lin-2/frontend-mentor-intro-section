@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    border: 1px solid red;
+}
+
+.header__logo {
+    border: 1px solid red;
+}
+
+.navBar__menu {
+    border: 1px solid red;
+}
+
+.body {
+    border: 1px solid red;
+}
+
+.body__header {
+    border: 1px solid red;
+}
+
+.body__text {
+    border: 1px solid red;
+}
+
+.body__button {
+    border: 1px solid red;
+}
+
+.footer {
+    border: 1px solid red;
+}
+
+.icon {
+    border: 1px solid red;
+}
