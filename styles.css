@@ -2,20 +2,38 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+
+    font-family: 'Epilogue', 'Times New Roman', Times, serif;
+
+    display: flex;
+    justify-content: center;
+}
+
+.intro {
+    border: 1px solid red;
+
+    width: 375px;
+    height: 780px;
+}
+
 .header {
-    border: 1px solid red;
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-.header__logo {
-    border: 1px solid red;
-}
-
-.navBar__menu {
-    border: 1px solid red;
+    margin: 20px;
 }
 
 .body {
     border: 1px solid red;
+}
+
+.body__pic {
+    border: 1px solid red;
+
+    width: 375px;
 }
 
 .body__header {
