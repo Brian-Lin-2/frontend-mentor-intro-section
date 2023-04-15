@@ -15,8 +15,6 @@ body {
 }
 
 .intro {
-    display: none;
-    
     width: 375px;
     height: 780px;
 }
@@ -89,16 +87,21 @@ body {
 
 .mobile {
     border: 1px solid red;
+    background-color:hsla(0, 0%, 8%, 0.75);
 
     width: 375px;
     height: 780px;
 
     display: flex;
     justify-content: end;
+
+    position: absolute;
+    z-index: 10;
 }
 
 .menu {
     border: 1px solid red;
+    background-color:hsl(0, 0%, 98%);
 
     width: 65%;
     height: 780px;
@@ -112,8 +115,13 @@ body {
     border: 1px solid red;
 }
 
-.features__dropDown {
+.dropDown {
     border: 1px solid red;
+
+    display: flex;
+    gap: 10px;
+
+    align-items: center;
 }
 
 .features__dropDownItems {
@@ -124,9 +132,6 @@ body {
     border: 1px solid red;
 }
 
-.menu__dropDown {
-    border: 1px solid red;
-}
 
 .menu__dropDownItems {
     border: 1px solid red;
