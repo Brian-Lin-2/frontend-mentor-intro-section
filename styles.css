@@ -13,7 +13,7 @@ body {
 
 .intro {
     border: 1px solid red;
-
+    
     width: 375px;
     height: 780px;
 }
@@ -28,30 +28,56 @@ body {
 
 .body {
     border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
 }
 
 .body__pic {
-    border: 1px solid red;
-
     width: 375px;
 }
 
 .body__header {
-    border: 1px solid red;
+    text-align: center;
+    font-size: 35px;
+
+    margin-top: 40px;
+    margin-bottom: 5px;
 }
 
 .body__text {
-    border: 1px solid red;
+    font-size: 17px;
+    color: hsl(0, 0%, 41%);
+    text-align: center;
+    line-height: 1.75rem;
 }
 
 .body__button {
     border: 1px solid red;
+    color: hsl(0, 0%, 98%);
+
+    padding: 14px 20px;
+    background-color: hsl(0, 0%, 8%);
+
+    border-radius: 15px;
+
+    margin-top: 5px;
+    margin-bottom: 40px;
 }
 
 .footer {
     border: 1px solid red;
+
+    /* display: flex; */
 }
 
 .icon {
     border: 1px solid red;
+    width: 75px;
 }
+
+.sponsers__audiophile {
+    width: 50px;
+}
+
