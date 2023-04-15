@@ -20,10 +20,40 @@
 <body>
   <div class="intro">
     <div class="header">
-      <img class="header__logo" src="images/logo.svg" alt="">
-
       <div class="navBar">
+        <img class="header__logo" src="images/logo.svg" alt="">
+
+        <!-- Mobile -->
         <img class="navBar__menu" src="images/icon-menu.svg" alt="">
+
+        <!-- Desktop -->
+        <div class="navBar__items">
+          <div class="features menu__features">
+            <div class="dropDown features__dropDown">
+              <div class="dropDown__text">Features</div>
+              <img class="features__arrow" src="images/icon-arrow-down.svg">
+            </div>
+          </div>
+    
+          <div class="company menu__company">
+            <div class="dropDown company__dropDown">
+              <div class="dropDown__text">Company</div>
+              <img class="company__arrow" src="images/icon-arrow-down.svg">
+            </div>
+          </div>
+    
+          <div class="menu__careers">Careers</div>
+    
+          <div class="menu__about">About</div>
+        </div>
+      </div>
+
+
+      <!-- Desktop -->
+      <div class="header__buttons">
+        <button class="button button--login">Login</button>
+
+        <button class="button button--register">Register</button>
       </div>
 
     </div>
@@ -52,7 +82,8 @@
 
   </div>
 
-  <div class="mobile">
+  <!-- Mobile Menu -->
+  <div class="mobile hide">
 
     <div class="menu mobile__menu">
       <a class="menu__close">
@@ -66,7 +97,7 @@
           <img class="features__arrow" src="images/icon-arrow-down.svg">
         </div>
 
-        <div class="features__dropDownItems">
+        <div class="features__dropDownItems hide">
 
           <div class="features__toDoList">
             <img class="features__icon" src="images/icon-todo.svg">
@@ -98,7 +129,7 @@
           <img class="company__arrow" src="images/icon-arrow-down.svg">
         </div>
 
-        <div class="company__dropDownItems">
+        <div class="company__dropDownItems hide">
           <div class="company__history">History</div>
   
           <div class="company__ourTeam">Our Team</div>

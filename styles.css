@@ -3,8 +3,6 @@
 }
 
 body {
-    border: 1px solid red;
-
     background-color: hsl(0, 0%, 98%);
     margin: 0;
 
@@ -19,6 +17,16 @@ body {
     height: 780px;
 }
 
+/* Desktop Design */
+@media screen and (min-width: 500px) {
+    .intro {
+        border: 1px red solid;
+
+        width: 1440px;
+        height: 900px;
+    }
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -26,65 +34,6 @@ body {
 
     margin: 20px;
 }
-
-.body {
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-}
-
-.body__pic {
-    width: 375px;
-}
-
-.body__header {
-    text-align: center;
-    font-size: 35px;
-
-    margin-top: 40px;
-    margin-bottom: 5px;
-}
-
-.body__text {
-    font-size: 16px;
-    color: hsl(0, 0%, 41%);
-    text-align: center;
-    line-height: 1.75rem;
-
-    margin: 15px 10px;
-}
-
-.body__button {
-    font-size: 18px;
-    color: hsl(0, 0%, 98%);
-
-    padding: 14px 22px;
-    background-color: hsl(0, 0%, 8%);
-
-    border: none;
-    border-radius: 15px;
-
-    margin-top: 5px;
-    margin-bottom: 40px;
-}
-
-.sponsers {
-    display: flex;
-    justify-content: space-around;
-}
-
-.footer__icon {
-    width: 20%;
-
-    /* Keeps the aspect ratio of images. */
-    object-fit: contain;
-}
-
-.sponsers__audiophile {
-    width: 15%;
-}
-
 
 /* Mobile Menu */
 
@@ -187,13 +136,116 @@ body {
 }
 
 .button--login {
-    /* border: 1px solid red; */
     border: none;
 }
 
 .button--register {
     border: 2px solid hsl(0, 0%, 8%);
     border-radius: 10px;
+}
+
+/* Desktop Design */
+@media screen and (min-width: 500px) {
+    .header {
+        border: 1px red solid;
+        margin: 20px 30px;
+    }
+
+    .navBar {
+        display: flex;
+
+        gap: 50px;
+    }
+
+    .navBar__menu {
+        display: none;
+    }
+
+    .navBar__items {
+        display: flex;
+        align-items: center;
+
+        gap: 30px;
+    }
+
+    .menu__features {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .menu__company {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .menu__careers {
+        margin: 0px;
+        padding: 0px;
+
+    }
+    
+    .menu__about {
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.body__pic {
+    width: 375px;
+}
+
+.body__header {
+    text-align: center;
+    font-size: 35px;
+
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.body__text {
+    font-size: 16px;
+    color: hsl(0, 0%, 41%);
+    text-align: center;
+    line-height: 1.75rem;
+
+    margin: 15px 10px;
+}
+
+.body__button {
+    font-size: 18px;
+    color: hsl(0, 0%, 98%);
+
+    padding: 14px 22px;
+    background-color: hsl(0, 0%, 8%);
+
+    border: none;
+    border-radius: 15px;
+
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.sponsers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__icon {
+    width: 20%;
+
+    /* Keeps the aspect ratio of images. */
+    object-fit: contain;
+}
+
+.sponsers__audiophile {
+    width: 15%;
 }
 
 /* Active States */
