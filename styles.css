@@ -86,7 +86,6 @@ body {
 }
 
 .mobile {
-    border: 1px solid red;
     background-color:hsla(0, 0%, 8%, 0.75);
 
     width: 375px;
@@ -100,24 +99,26 @@ body {
 }
 
 .menu {
-    border: 1px solid red;
     background-color:hsl(0, 0%, 98%);
+
+    color: hsl(0, 0%, 41%);
 
     width: 65%;
     height: 780px;
 }
 
 .menu__close {
-    border: 1px solid red;
+    display: flex;
+    justify-content: end;
+
+    margin: 20px;
 }
 
 .menu__features {
-    border: 1px solid red;
+    margin: 20px;
 }
 
 .dropDown {
-    border: 1px solid red;
-
     display: flex;
     gap: 10px;
 
@@ -125,7 +126,20 @@ body {
 }
 
 .features__dropDownItems {
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+    margin: 20px;
+    margin-top: 25px;
+}
+
+.features__toDoList,
+.features__calendar,
+.features__reminders,
+.features__planning {
+    display: flex;
+    gap: 10px;
 }
 
 .menu__company {
