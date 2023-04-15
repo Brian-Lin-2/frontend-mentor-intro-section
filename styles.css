@@ -20,8 +20,6 @@ body {
 /* Desktop Design */
 @media screen and (min-width: 500px) {
     .intro {
-        border: 1px red solid;
-
         width: 1440px;
         height: 900px;
     }
@@ -147,8 +145,8 @@ body {
 /* Desktop Design */
 @media screen and (min-width: 500px) {
     .header {
-        border: 1px red solid;
         margin: 20px 30px;
+        color: hsl(0, 0%, 41%);
     }
 
     .navBar {
@@ -188,6 +186,16 @@ body {
         margin: 0px;
         padding: 0px;
     }
+
+    .button--login {
+        margin-right: 20px;
+    }
+    
+    .button--register {
+        border: 2px solid hsl(0, 0%, 8%);
+        border-radius: 15px;
+        padding: 14px 18px;
+    }
 }
 
 .body {
@@ -222,7 +230,7 @@ body {
     margin: 15px 10px;
 }
 
-.body__button {
+.body--button {
     font-size: 18px;
     color: hsl(0, 0%, 98%);
 
@@ -259,18 +267,8 @@ body {
     }
 
     .body__picDesktop {
-        border: 1px red solid;
-
         display: block;
         height: 650px;
-    }
-    
-    .body {
-        border: 1px red solid;
-    }
-
-    .footer {
-        border: 1px red solid;
     }
 
     .desktop__container {
@@ -278,38 +276,32 @@ body {
     }
 
     .desktop__left {
-        border: 1px red solid;
-
         margin: 100px 125px;
     }
 
     .body {
-        border: 1px red solid;
-        
         align-items: start;
     }
 
     .body__header {
-        border: 1px red solid;
+        font-size: 90px;
 
         text-align: start;
-    
-        margin-top: 40px;
-        margin-bottom: 5px;
     }
     
     .body__text {
-        border: 1px red solid;
+        font-size: 18px;
 
         text-align: start;
-        line-height: 1.75rem;
-    
-        margin: 15px 10px;
+        margin: 40px 120px 40px 0px;
+    }
+
+    .body--button {
+        padding: 20px 30px;
+        margin-bottom: 95px;
     }
 
     .desktop__right {
-        border: 1px red solid;
-
         margin: 50px 100px 100px 0px;
     }
 
