@@ -85,6 +85,9 @@ body {
     width: 15%;
 }
 
+
+/* Mobile Menu */
+
 .mobile {
     background-color:hsla(0, 0%, 8%, 0.75);
 
@@ -112,6 +115,7 @@ body {
     justify-content: end;
 
     margin: 20px;
+    margin-bottom: 30px;
 }
 
 .menu__features {
@@ -129,7 +133,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    gap: 20px;
+    gap: 25px;
     margin: 20px;
     margin-top: 25px;
 }
@@ -147,38 +151,49 @@ body {
     margin-top: 30px;
 }
 
-
 .company__dropDownItems {
     display: flex;
     flex-direction: column;
 
-    gap: 20px;
+    gap: 25px;
     margin: 20px;
     margin-top: 25px;
 }
 
 .menu__careers {
-    border: 1px solid red;
+    margin: 30px 20px;
 }
 
 .menu__about {
-    border: 1px solid red;
+    margin: 20px;
+    margin-bottom: 30px;
 }
 
 .menu__buttons {
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    margin: 25px;
 }
 
 .button {
+    font-family: 'Epilogue', 'Times New Roman', Times, serif;
+    color: hsl(0, 0%, 41%);
+    font-size: 14px;
 
+    background-color:hsl(0, 0%, 98%);
+    padding: 12px;
 }
 
 .button--login {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    border: none;
 }
 
 .button--register {
-    border: 1px solid red;
+    border: 2px solid hsl(0, 0%, 8%);
+    border-radius: 10px;
 }
 
 /* Active States */
