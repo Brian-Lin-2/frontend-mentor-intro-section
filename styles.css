@@ -197,8 +197,12 @@ body {
     align-items: center;
 }
 
-.body__pic {
+.body__picMobile {
     width: 375px;
+}
+
+.body__picDesktop {
+    display: none;
 }
 
 .body__header {
@@ -246,6 +250,69 @@ body {
 
 .sponsers__audiophile {
     width: 15%;
+}
+
+/* Desktop Design */
+@media screen and (min-width: 500px) {
+    .body__picMobile {
+        display: none;
+    }
+
+    .body__picDesktop {
+        border: 1px red solid;
+
+        display: block;
+        height: 650px;
+    }
+    
+    .body {
+        border: 1px red solid;
+    }
+
+    .footer {
+        border: 1px red solid;
+    }
+
+    .desktop__container {
+        display: flex;
+    }
+
+    .desktop__left {
+        border: 1px red solid;
+
+        margin: 100px 125px;
+    }
+
+    .body {
+        border: 1px red solid;
+        
+        align-items: start;
+    }
+
+    .body__header {
+        border: 1px red solid;
+
+        text-align: start;
+    
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+    
+    .body__text {
+        border: 1px red solid;
+
+        text-align: start;
+        line-height: 1.75rem;
+    
+        margin: 15px 10px;
+    }
+
+    .desktop__right {
+        border: 1px red solid;
+
+        margin: 50px 100px 100px 0px;
+    }
+
 }
 
 /* Active States */
