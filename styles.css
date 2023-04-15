@@ -3,6 +3,7 @@
 }
 
 body {
+    background-color: hsl(0, 0%, 98%);
     margin: 0;
 
     font-family: 'Epilogue', 'Times New Roman', Times, serif;
@@ -12,8 +13,6 @@ body {
 }
 
 .intro {
-    border: 1px solid red;
-    
     width: 375px;
     height: 780px;
 }
@@ -27,7 +26,6 @@ body {
 }
 
 .body {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
 
@@ -47,37 +45,40 @@ body {
 }
 
 .body__text {
-    font-size: 17px;
+    font-size: 16px;
     color: hsl(0, 0%, 41%);
     text-align: center;
     line-height: 1.75rem;
+
+    margin: 15px 10px;
 }
 
 .body__button {
-    border: 1px solid red;
+    font-size: 18px;
     color: hsl(0, 0%, 98%);
 
-    padding: 14px 20px;
+    padding: 14px 22px;
     background-color: hsl(0, 0%, 8%);
 
+    border: none;
     border-radius: 15px;
 
     margin-top: 5px;
     margin-bottom: 40px;
 }
 
-.footer {
-    border: 1px solid red;
-
-    /* display: flex; */
+.sponsers {
+    display: flex;
+    justify-content: space-around;
 }
 
 .icon {
-    border: 1px solid red;
-    width: 75px;
+    width: 20%;
+
+    /* Keeps the aspect ratio of images. */
+    object-fit: contain;
 }
 
 .sponsers__audiophile {
-    width: 50px;
+    width: 15%;
 }
-
