@@ -3,6 +3,8 @@
 }
 
 body {
+    border: 1px solid red;
+
     background-color: hsl(0, 0%, 98%);
     margin: 0;
 
@@ -13,6 +15,8 @@ body {
 }
 
 .intro {
+    display: none;
+    
     width: 375px;
     height: 780px;
 }
@@ -72,7 +76,7 @@ body {
     justify-content: space-around;
 }
 
-.icon {
+.footer__icon {
     width: 20%;
 
     /* Keeps the aspect ratio of images. */
@@ -81,4 +85,21 @@ body {
 
 .sponsers__audiophile {
     width: 15%;
+}
+
+.mobile {
+    border: 1px solid red;
+
+    width: 375px;
+    height: 780px;
+
+    display: flex;
+    justify-content: end;
+}
+
+.menu {
+    border: 1px solid red;
+
+    width: 65%;
+    height: 780px;
 }
