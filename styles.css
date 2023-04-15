@@ -103,3 +103,55 @@ body {
     width: 65%;
     height: 780px;
 }
+
+.menu__close {
+    border: 1px solid red;
+}
+
+.menu__features {
+    border: 1px solid red;
+}
+
+.features__dropDown {
+    border: 1px solid red;
+}
+
+.features__dropDownItems {
+    border: 1px solid red;
+}
+
+.menu__company {
+    border: 1px solid red;
+}
+
+.menu__dropDown {
+    border: 1px solid red;
+}
+
+.menu__dropDownItems {
+    border: 1px solid red;
+}
+
+.menu__careers {
+    border: 1px solid red;
+}
+
+.menu__about {
+    border: 1px solid red;
+}
+
+.menu__buttons {
+    border: 1px solid red;
+}
+
+.button {
+
+}
+
+.button--login {
+    border: 1px solid red;
+}
+
+.button--register {
+    border: 1px solid red;
+}
