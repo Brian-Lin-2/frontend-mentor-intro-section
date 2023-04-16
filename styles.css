@@ -4,7 +4,7 @@
 
 body {
     background-color: hsl(0, 0%, 98%);
-    margin: 0;
+    margin: 0px;
 
     font-family: 'Epilogue', 'Times New Roman', Times, serif;
 
@@ -18,7 +18,7 @@ body {
 }
 
 /* Desktop Design */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 500px) {
     .intro {
         width: 1440px;
         height: 900px;
@@ -155,8 +155,12 @@ body {
 }
 
 /* Desktop Design */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 500px) {
     .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
         margin: 20px 30px;
         color: hsl(0, 0%, 41%);
     }
@@ -166,7 +170,7 @@ body {
     }
 
     .navBar {
-        display: flex;
+        justify-content: start;
 
         gap: 50px;
     }
@@ -323,7 +327,7 @@ body {
 }
 
 /* Desktop Design */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 500px) {
     .body__picMobile {
         display: none;
     }
