@@ -192,9 +192,20 @@ body {
     }
     
     .button--register {
-        border: 2px solid hsl(0, 0%, 8%);
+        border: 2px solid hsl(0, 0%, 41%);
         border-radius: 15px;
         padding: 14px 18px;
+    }
+
+    /* Desktop Active States */
+    .menu__features:hover,
+    .menu__company:hover,
+    .menu__careers:hover,
+    .menu__about:hover,
+    .button--login:hover,
+    .button--register:hover {
+        cursor: pointer;
+        color: hsl(0, 0%, 8%);
     }
 }
 
@@ -299,10 +310,21 @@ body {
     .body--button {
         padding: 20px 30px;
         margin-bottom: 95px;
+
+        border: 2px solid hsl(0, 0%, 8%);
     }
 
     .desktop__right {
         margin: 50px 100px 100px 0px;
+    }
+
+    /* Desktop Active States */
+    .body--button:hover {
+        cursor: pointer;
+        background-color: hsl(0, 0%, 98%);
+
+        color:hsl(0, 0%, 8%);
+        font-weight: 700;
     }
 
 }
