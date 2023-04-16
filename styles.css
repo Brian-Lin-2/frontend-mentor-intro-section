@@ -147,12 +147,6 @@ body {
     .header {
         margin: 20px 30px;
         color: hsl(0, 0%, 41%);
-
-        border: 1px solid red;
-    }
-
-    .header__logo {
-        border: 1px red solid;
     }
 
     .navBar {
@@ -178,7 +172,17 @@ body {
     }
 
     .features__dropDownItems {
-        border: 1px solid red;
+        position: absolute;
+
+        background-color: hsl(0, 0%, 98%);
+        padding: 25px 30px;
+        margin-top: 15px;
+        margin-left: -80px;
+
+        gap: 18px;
+
+        border-radius: 10px;
+        box-shadow: 0px 5px 50px hsla(0, 0%, 8%, 0.2);
     }
     
     .menu__company {
@@ -187,7 +191,17 @@ body {
     }
 
     .company__dropDownItems {
-        border: 1px solid red;
+        position: absolute;
+
+        background-color: hsl(0, 0%, 98%);
+        padding: 25px 30px;
+        margin-top: 15px;
+        margin-left: -10px;
+
+        gap: 20px;
+
+        border-radius: 10px;
+        box-shadow: 0px 5px 50px hsla(0, 0%, 8%, 0.2);
     }
     
     .menu__careers {
@@ -212,8 +226,15 @@ body {
     }
 
     /* Desktop Active States */
-    .menu__features:hover,
-    .menu__company:hover,
+    .features__dropDown:hover,
+    .features__toDoList:hover,
+    .features__calendar:hover,
+    .features__reminders:hover,
+    .features__planning:hover,
+    .company__dropDown:hover,
+    .company__history:hover,
+    .company__ourTeam:hover,
+    .company__blog:hover,
     .menu__careers:hover,
     .menu__about:hover,
     .button--login:hover,
@@ -298,6 +319,8 @@ body {
 
     .desktop__container {
         display: flex;
+
+        margin-top: 35px;
     }
 
     .desktop__left {
