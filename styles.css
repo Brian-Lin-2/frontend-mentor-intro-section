@@ -18,19 +18,31 @@ body {
 }
 
 /* Desktop Design */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 1000px) {
     .intro {
         width: 1440px;
         height: 900px;
     }
 }
 
-.header {
+.navBar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     margin: 20px;
+}
+
+.navBar__menu {
+    margin-bottom: 10px;
+}
+
+.navBar__items {
+    display: none;
+}
+
+.header__buttons {
+    display: none;
 }
 
 /* Mobile Menu */
@@ -143,10 +155,14 @@ body {
 }
 
 /* Desktop Design */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 1000px) {
     .header {
         margin: 20px 30px;
         color: hsl(0, 0%, 41%);
+    }
+
+    .header__buttons {
+        display: block;
     }
 
     .navBar {
@@ -277,10 +293,10 @@ body {
 }
 
 .body--button {
-    font-size: 18px;
+    font-size: 16px;
     color: hsl(0, 0%, 98%);
 
-    padding: 14px 22px;
+    padding: 15px 20px;
     background-color: hsl(0, 0%, 8%);
 
     border: none;
@@ -307,7 +323,7 @@ body {
 }
 
 /* Desktop Design */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 1000px) {
     .body__picMobile {
         display: none;
     }
