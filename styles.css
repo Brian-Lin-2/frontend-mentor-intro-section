@@ -147,6 +147,12 @@ body {
     .header {
         margin: 20px 30px;
         color: hsl(0, 0%, 41%);
+
+        border: 1px solid red;
+    }
+
+    .header__logo {
+        border: 1px red solid;
     }
 
     .navBar {
@@ -170,10 +176,18 @@ body {
         margin: 0px;
         padding: 0px;
     }
+
+    .features__dropDownItems {
+        border: 1px solid red;
+    }
     
     .menu__company {
         margin: 0px;
         padding: 0px;
+    }
+
+    .company__dropDownItems {
+        border: 1px solid red;
     }
     
     .menu__careers {
