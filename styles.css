@@ -18,7 +18,7 @@ body {
 }
 
 /* Desktop Design */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 2000px) {
     .intro {
         width: 1440px;
         height: 900px;
@@ -155,7 +155,7 @@ body {
 }
 
 /* Desktop Design */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 2000px) {
     .header {
         display: flex;
         justify-content: space-between;
@@ -327,7 +327,7 @@ body {
 }
 
 /* Desktop Design */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 2000px) {
     .body__picMobile {
         display: none;
     }

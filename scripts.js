@@ -26,3 +26,46 @@ company.addEventListener('click', () => {
 
     companyItems.classList.toggle("hide");
 });
+
+// Mobile.
+const mobile = document.querySelector(".mobile");
+const mobileMenu = document.querySelector(".navBar__menu");
+const menuClose = document.querySelector(".menu__close");
+
+const featuresMobile = document.querySelectorAll(".features__dropDown")[1];
+const featuresArrowMobile = document.querySelectorAll(".features__arrow")[1];
+const featuresItemsMobile = document.querySelectorAll(".features__dropDownItems")[1];
+const companyMobile = document.querySelectorAll(".company__dropDown")[1];
+const companyArrowMobile = document.querySelectorAll(".company__arrow")[1];
+const companyItemsMobile = document.querySelectorAll(".company__dropDownItems")[1];
+
+console.log(featuresMobile);
+
+mobileMenu.addEventListener('click', () => {
+    mobile.classList.remove("hide");
+});
+
+menuClose.addEventListener('click', () => {
+    mobile.classList.add("hide");
+});
+
+// Mobile arrow state.
+let featuresActiveMobile = 1;
+let companyActiveMobile = 1;
+const arrowToggleMobile = ["images/icon-arrow-down.svg", "images/icon-arrow-up.svg"];
+
+featuresMobile.addEventListener('click', () => {
+    // Toggles between the arrow states.
+    featuresActiveMobile %= 2;
+    featuresArrowMobile.src = arrowToggle[featuresActiveMobile++];
+
+    featuresItemsMobile.classList.toggle("hide");
+});
+
+companyMobile.addEventListener('click', () => {
+    // Toggles between the arrow states.
+    companyActiveMobile %= 2;
+    companyArrowMobile.src = arrowToggle[companyActiveMobile++];
+
+    companyItemsMobile.classList.toggle("hide");
+});
