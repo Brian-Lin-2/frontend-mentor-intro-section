@@ -14,8 +14,6 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
   - [Continued development](#continued-development)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 Basic intro screen with an interactive dropdown menu for a website. 
@@ -40,7 +38,8 @@ Mobile
 </br><img width="200" alt="image" src="https://user-images.githubusercontent.com/19761406/232360537-4fead06d-b90b-4d2a-ae26-a78302f89155.png">
 
 Mobile Menu
-</br><img width="200" alt="image" src="https://user-images.githubusercontent.com/19761406/232360626-9583ed47-d21f-4071-bc1f-35441932d480.png">
+</br><img width="200" alt="image" src="https://user-images.githubusercontent.com/19761406/232360819-40c88346-f508-4798-a3f9-d3cb6c97fee3.png">
+
 
 ### Links
 
@@ -77,5 +76,3 @@ Moving forward I would like more practice with JavaScript and creating more comp
 ## Author
 
 - Frontend Mentor - [@Brian-Lin-2](https://www.frontendmentor.io/profile/Brian-Lin-2)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
