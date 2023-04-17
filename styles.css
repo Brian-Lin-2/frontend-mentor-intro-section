@@ -13,15 +13,7 @@ body {
 }
 
 .intro {
-    width: 375px;
     min-height: 100vh
-}
-
-/* Desktop Design */
-@media screen and (min-width: 500px) {
-    .intro {
-        width: 100%;
-    }
 }
 
 .navBar {
