@@ -14,14 +14,13 @@ body {
 
 .intro {
     width: 375px;
-    height: 780px;
+    min-height: 100vh
 }
 
 /* Desktop Design */
 @media screen and (min-width: 500px) {
     .intro {
-        width: 1440px;
-        height: 900px;
+        width: 100%;
     }
 }
 
@@ -51,7 +50,7 @@ body {
     background-color:hsla(0, 0%, 8%, 0.75);
 
     width: 375px;
-    height: 780px;
+    min-height: 100vh;
 
     display: flex;
     justify-content: end;
